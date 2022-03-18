@@ -1,0 +1,13 @@
+pandas
+sklearn
+pydantic
+joblib
+streamlit
+numpy
+plotly
+matplotlib
+shap
+requests
+uvicorn
+fastapi
+gunicorn
