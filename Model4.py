@@ -29,7 +29,7 @@ class IrisSpecies(BaseModel):
 class IrisModel:
     def __init__(self):
         self.df = pd.read_csv('creditdf.csv')
-        self.model_fname_ = 'finn_model.pkl'
+        self.model_fname_ = 'f_model.pkl'
         try:
             self.model = joblib.load(self.model_fname_)
         except Exception as _:
