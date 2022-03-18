@@ -2,12 +2,9 @@ import uvicorn
 from fastapi import FastAPI
 from Model4 import IrisModel, IrisSpecies
 import streamlit as st
-from fastapi.encoders import jsonable_encoder
-from fastapi.responses import JSONResponse
 
 app4 = FastAPI()
 model = IrisModel()
-
 
 @app4.post('/predict')
 def predict_species(iris: IrisSpecies):
