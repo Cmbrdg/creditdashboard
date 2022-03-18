@@ -1,4 +1,4 @@
-##Implémentez un modèle de scoring
+Implémentez un modèle de scoring
 
 Objectifs: 
 1. mettre en œuvre un outil de “scoring crédit” pour calculer la probabilité qu’un client rembourse son crédit
