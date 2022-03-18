@@ -8,7 +8,6 @@ from fastapi.responses import JSONResponse
 app4 = FastAPI()
 model = IrisModel()
 
-
 @app4.post('/predict')
 def predict_species(iris: IrisSpecies):
     data = iris.dict()
